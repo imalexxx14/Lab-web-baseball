@@ -1,0 +1,10 @@
+{
+    "components": [
+      "./src/components/Counter.js",
+      "./src/components/Footer.js",
+      "./src/components/Header.js"
+    ],
+    "wrapper": "./src/Wrapper.tsx",
+    "webpack": "./webpack.locofy.js",
+    "publicPath": "./public/assets"
+}
