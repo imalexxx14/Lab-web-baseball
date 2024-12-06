@@ -2,7 +2,7 @@ function Header() {
     return (
       <header>
         <h1>App para umpires de baseball</h1>
-        <p>Cuenta bolas, strikes y outs </p>
+        <h2>Cuenta bolas, strikes y outs </h2>
       </header>
     );
   }

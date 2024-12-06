@@ -45,11 +45,13 @@ if (outs > 3) setOuts(outs = 0);
     <div className="app de ale">
     <Header />
     <main>
+      <div className="baseContainer">
       <h2>Marcador de Umpire</h2>
       <div className="counters">
         <Counter label="Bolas" count={balls} onIncrement={handleBall} />
         <Counter label="Strikes" count={strikes} onIncrement={handleStrike} />
         <Counter label="Outs" count={outs} onIncrement={handleOut} />
+      </div>
       </div>
     </main>
     <Footer />

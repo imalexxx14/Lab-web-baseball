@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <footer>
-        <p>&copy; APP Baseball de alex</p>
+        <h3>&copy; APP Baseball de alex</h3>
       </footer>
     );
   }
