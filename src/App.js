@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Counter from "./components/Counter";
-import './App.css';
+import './css/App.css';
 
 function App() {
 const [balls, setBalls] = useState (0);
@@ -40,21 +40,18 @@ if (outs > 3) setOuts(outs = 0);
 
 }
 
-
   return (
-    <div className="app de ale">
+    <div className="FatherContainer">
     <Header />
-    <main>
+      <h2 id="Umpire">Marcador de Umpire</h2>
       <div className="baseContainer">
-      <h2>Marcador de Umpire</h2>
       <div className="counters">
         <Counter label="Bolas" count={balls} onIncrement={handleBall} />
         <Counter label="Strikes" count={strikes} onIncrement={handleStrike} />
         <Counter label="Outs" count={outs} onIncrement={handleOut} />
       </div>
       </div>
-    </main>
-    <Footer />
+    <Footer/>
   </div>
 );
 }

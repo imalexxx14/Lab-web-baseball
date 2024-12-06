@@ -1,8 +1,7 @@
 function Header() {
     return (
       <header>
-        <h1>App para umpires de baseball</h1>
-        <h2>Cuenta bolas, strikes y outs </h2>
+        <h1 style={{color: 'white'}}>App para umpires de baseball</h1>
       </header>
     );
   }
