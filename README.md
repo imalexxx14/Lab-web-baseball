@@ -1,3 +1,5 @@
+Este es un proyecto realizado para umpires de baeball contar los strikes, bolas y outs de cada inning en unn juego de baseball, desarollado utilizando react.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
